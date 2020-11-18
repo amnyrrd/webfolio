@@ -1,0 +1,14 @@
+#home {
+  display: flex;
+  flex-direction: row;
+
+  #photoCard {
+    // align-content: right;
+    height: 100vh;
+  }
+
+  #sideNavBar {
+    // align-content: left;
+    width: 44vw;
+  }
+}
