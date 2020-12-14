@@ -1,49 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
-#CFCard {
-  padding-top: 100px;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Space Mono', monospace;
+#CFCardAndTitle {
   background-color: rgba(67, 137, 167, 0.358);
-  display: flex;
-  flex-direction: row;
+  font-family: 'Space Mono', monospace;
 
   #CFTitle {
     text-align: center;
-    justify-content: center;
-    align-self: center;
-    font-size: 28px;
+    font-size: 34px;
     text-decoration: none;
-    padding-bottom: 50px;
     color: black;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
 
-  #CFPhoto {
-    height: 50vh;
-    width: 50vw;
-    align-self: left;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  #CFWriteUp {
-    width: 66vh;
-    height: 100%;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 22px;
-    padding-bottom: 100px;
-    padding-left: 40px;
-  }
-
-  .CFPhotoAndWriteUp {
-    flex-direction: row;
-    height: 100%;
-    margin: 0;
+  #CFCard {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+
+    #CFPhoto {
+      height: 48vh;
+      width: 48vw;
+    }
+
+    #CFWriteUp {
+      width: 66vh;
+      align-self: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 22px;
+    }
   }
 }

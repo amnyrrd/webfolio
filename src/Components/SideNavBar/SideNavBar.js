@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ToggleBikeHome from '../ToggleHomeButton/ToggleHomeButton'
 import './SideNavBarStyles.scss';
 // import ''
 
@@ -17,7 +18,7 @@ const SideNavBar = () => {
       <Link to='/contact' id='contactLink'>
         Contact
       </Link>
-      <br />
+      <ToggleBikeHome id='bikeIcon'/>
     </div>
   );
 };

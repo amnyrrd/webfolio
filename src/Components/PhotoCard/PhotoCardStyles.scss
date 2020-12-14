@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
 #photoCard {
   #photoOfMe {
     height: 100%;
     width: 100%;
+  }
+
+  .text-block {
+    font-family: 'Space Mono', monospace;
+    font-size: 21px;
+    padding: 30px 34px 30px 34px;
+    width: 14%;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    background-color: #C6EDE6;
+    color: black;
   }
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+#Footer {
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(67, 137, 167, 0.358);
+  justify-content: space-around;
+
+  #BikeIconFooter {
+    height: 55px;
+    width: 55px;
+  }
+
+  #HomeLink {
+    text-decoration: none;
+  }
+
+  #ContactLink {
+    text-decoration: none;
+  }
+}

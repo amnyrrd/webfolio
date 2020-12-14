@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+#BioPageBG {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../../Public/Images/bio-bg.png');
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+#BioCard {
+  height: 70vh;
+  width: 70vw;
+  background-color: #C9FFE5;
+  position: absolute;
+  border-radius: 25px;
+  top: 15%;
+  right: 15%;
+  left: 15%;
+  bottom: 15%;
+
+  .BioTitle {
+    align-self: center;
+    margin: auto;
+    width: fit-content;
+  }
+
+  #BioText1 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  #SkillsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+
+    #SkillsList {
+      list-style-type: none;
+      font-size: 21px;
+      text-align: center;
+    }
+  }
+}
