@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 #CFCardAndTitle {
-  background-color: rgba(67, 137, 167, 0.358);
+  background-color: #96bdcc;
   font-family: 'Space Mono', monospace;
 
   #CFTitle {
@@ -35,6 +35,82 @@
       justify-content: center;
       text-align: center;
       font-size: 22px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1223px) {
+    #CFTitle {
+      text-align: center;
+      font-size: 34px;
+      text-decoration: none;
+      color: black;
+      position: absolute;
+      top: 72%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 4%;
+    }
+
+    #CFCard {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      align-items: center;
+      height: 68vh;
+      width: 100vw;
+
+      #CFPhoto {
+        padding-top: 23%;
+        height: 28vh;
+        width: 50vw;
+      }
+
+      #CFWriteUp {
+        width: 66vh;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    #CFTitle {
+      text-align: center;
+      font-size: 24px;
+      text-decoration: none;
+      color: black;
+      position: absolute;
+      top: 84%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 4%;
+    }
+
+    #CFCard {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      align-items: center;
+      height: 68vh;
+      width: 100vw;
+
+      #CFPhoto {
+        padding-top: 24%;
+        height: 28vh;
+        width: 50vw;
+      }
+
+      #CFWriteUp {
+        width: 45vh;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+      }
     }
   }
 }

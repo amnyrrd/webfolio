@@ -19,7 +19,7 @@ const Footer = () => {
 };
 
 const ContactPageFooter = () => (
-  <div id='Footer' style={{ backgroundColor: '#C9FFE5' }}>
+  <div id='Footer' style={{ backgroundColor: '#96BDCC' }}>
     <Link to='/' style={{ textDecoration: 'none' }}>
       <p id='HomeLink'>aaronminyard.com</p>
     </Link>
@@ -36,7 +36,7 @@ const ContactPageFooter = () => (
 );
 
 const BioPageFooter = () => (
-  <div id='Footer' style={{ backgroundColor: '#C9FFE5' }}>
+  <div id='Footer' style={{ backgroundColor: '#b0ded8' }}>
     <Link to='' style={{ textDecoration: 'none' }}>
       <p id='HomeLink'>aaronminyard.com</p>
     </Link>

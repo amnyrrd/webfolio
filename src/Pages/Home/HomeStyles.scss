@@ -1,15 +1,49 @@
 #home {
+  @media screen and (min-width: 1201px) {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    #photoCard {
+      height: 100vh;
+      width: 56%;
+    }
+
+    #sideNavBar {
+      height: 100vh;
+      width: 44vw;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1201px) {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+
+    #photoCard {
+      height: 80vh;
+      width: 100vw;
+    }
+
+    #sideNavBar {
+      height: 80vh;
+      width: 100vw;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   overflow: hidden;
 
   #photoCard {
-    height: 100vh;
-    width: 56%;
+    height: 80vh;
+    width: 100vw;
   }
 
   #sideNavBar {
-    height: 100vh;
-    width: 44vw;
+    height: 80vh;
+    width: 100vw;
   }
+}
 }

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+#ContactPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: #96bdcc;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Space Mono', monospace;
+
+  #Header {
+    position: absolute;
+    left: 70%;
+
+    #Icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      #DevToIcon {
+        height: 75px;
+        width: 75px;
+      }
+
+      #OctoCatIcon {
+        height: 75px;
+        width: 75px;
+      }
+
+      #StravaIcon {
+        height: 75px;
+        width: 150px;
+      }
+    }
+  }
+
+  #LowerBG {
+    background-color: #c9ffe5;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    top: 20%;
+  }
+
+  #ContactForm {
+    height: 45vh;
+    width: 50vw;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c9ffe5;
+
+    #Boxes {
+      padding-bottom: 2%;
+
+      #NameBox {
+        width: 60%;
+      }
+
+      #EmailBox {
+        width: 60%;
+      }
+
+      #SubjectBox {
+        width: 60%;
+      }
+
+      #MessageBox {
+        width: 95%;
+        // padding-bottom: 10px;
+      }
+    }
+
+    #SendButton {
+      font-family: 'Space Mono', monospace;
+      background-color: #96bdcc;
+      position: absolute;
+      left: 50%;
+      padding: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1000) and (max-width: 1400px) {
+    height: 100vh;
+    width: 100vw;
+    background-color: #96bdcc;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Space Mono', monospace;
+
+    #Header {
+      position: absolute;
+      left: 70%;
+      height: 30vh;
+
+      #Icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        #DevToIcon {
+          height: 60px;
+          width: 60px;
+        }
+
+        #OctoCatIcon {
+          height: 60px;
+          width: 60px;
+        }
+
+        #StravaIcon {
+          height: 60px;
+          width: 120px;
+        }
+      }
+    }
+
+    #LowerBG {
+      background-color: #c9ffe5;
+      height: 70vh;
+      width: 100vw;
+      position: absolute;
+      top: 30%;
+    }
+
+    #ContactForm {
+      height: 50vh;
+      width: 50vw;
+      border-radius: 25px;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #c9ffe5;
+
+      #Boxes {
+        padding-bottom: 2%;
+
+        #NameBox {
+          width: 60%;
+        }
+
+        #EmailBox {
+          width: 60%;
+        }
+
+        #SubjectBox {
+          width: 60%;
+        }
+
+        #MessageBox {
+          width: 95%;
+          // padding-bottom: 10px;
+        }
+      }
+
+      #SendButton {
+        font-family: 'Space Mono', monospace;
+        background-color: #96bdcc;
+        position: absolute;
+        left: 50%;
+        padding: 4px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1201px) {
+    #Header {
+      position: absolute;
+      left: 50%;
+
+      #Icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        #DevToIcon {
+          height: 75px;
+          width: 75px;
+        }
+
+        #OctoCatIcon {
+          height: 75px;
+          width: 75px;
+        }
+
+        #StravaIcon {
+          height: 75px;
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    #Header {
+      position: absolute;
+      left: 8.2%;
+      height: 25vh;
+
+      #Icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        #DevToIcon {
+          height: 60px;
+          width: 60px;
+        }
+
+        #OctoCatIcon {
+          height: 60px;
+          width: 60px;
+        }
+
+        #StravaIcon {
+          height: 75px;
+          width: 120px;
+        }
+      }
+    }
+
+    #ContactForm {
+      height: 80vh;
+      width: 50vw;
+      border-radius: 25px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #c9ffe5;
+
+      #Boxes {
+        padding-bottom: 2%;
+
+        #NameBox {
+          width: 80%;
+        }
+
+        #EmailBox {
+          width: 80%;
+        }
+
+        #SubjectBox {
+          width: 80%;
+        }
+
+        #MessageBox {
+          width: 95%;
+        }
+      }
+
+      #SendButton {
+        font-family: 'Space Mono', monospace;
+        background-color: #96bdcc;
+        position: absolute;
+        left: 50%;
+        padding: 10px;
+      }
+    }
+
+    #LowerBG {
+      background-color: #c9ffe5;
+      height: 80vh;
+      width: 100vw;
+      position: absolute;
+      top: 25%;
+    }
+  }
+}
