@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.bcfbf514.chunk.css",
-    "main.js": "/webfolio/static/js/main.6beb3c2e.chunk.js",
-    "main.js.map": "/webfolio/static/js/main.6beb3c2e.chunk.js.map",
+    "main.js": "/webfolio/static/js/main.94169c7c.chunk.js",
+    "main.js.map": "/webfolio/static/js/main.94169c7c.chunk.js.map",
     "runtime-main.js": "/webfolio/static/js/runtime-main.e1968a45.js",
     "runtime-main.js.map": "/webfolio/static/js/runtime-main.e1968a45.js.map",
-    "static/js/2.8a458d1e.chunk.js": "/webfolio/static/js/2.8a458d1e.chunk.js",
-    "static/js/2.8a458d1e.chunk.js.map": "/webfolio/static/js/2.8a458d1e.chunk.js.map",
+    "static/js/2.38261647.chunk.js": "/webfolio/static/js/2.38261647.chunk.js",
+    "static/js/2.38261647.chunk.js.map": "/webfolio/static/js/2.38261647.chunk.js.map",
     "index.html": "/webfolio/index.html",
     "static/css/main.bcfbf514.chunk.css.map": "/webfolio/static/css/main.bcfbf514.chunk.css.map",
-    "static/js/2.8a458d1e.chunk.js.LICENSE.txt": "/webfolio/static/js/2.8a458d1e.chunk.js.LICENSE.txt",
+    "static/js/2.38261647.chunk.js.LICENSE.txt": "/webfolio/static/js/2.38261647.chunk.js.LICENSE.txt",
     "static/media/R0001155.ba2ea7d0.jpg": "/webfolio/static/media/R0001155.ba2ea7d0.jpg",
     "static/media/RideDiaries.75aaf06a.png": "/webfolio/static/media/RideDiaries.75aaf06a.png",
     "static/media/Strava_Logo.080f9243.svg": "/webfolio/static/media/Strava_Logo.080f9243.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1968a45.js",
-    "static/js/2.8a458d1e.chunk.js",
+    "static/js/2.38261647.chunk.js",
     "static/css/main.bcfbf514.chunk.css",
-    "static/js/main.6beb3c2e.chunk.js"
+    "static/js/main.94169c7c.chunk.js"
   ]
 }
