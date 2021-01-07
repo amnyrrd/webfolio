@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from '../Pages/Home/Home';
 import Bio from '../Pages/Bio/Bio';
 import Contact from '../Pages/Contact/Contact';
@@ -12,7 +12,7 @@ import RideDiaries from '../Pages/Projects/RideDiaries/RideDiaries';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path='/' render={() => <Home />} />
         <Route exact path='/bio' render={() => <Bio />} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route exact path='/contact' render={() => <Contact />} />
         <Route exact path='/bike' render={() => <BikeHome />} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
