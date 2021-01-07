@@ -19,4 +19,13 @@
   #ContactLink {
     text-decoration: none;
   }
+
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    font-size: 12px;
+
+    #BikeIconFooter {
+      height: 40px;
+      width: 40px;
+    }
+  }
 }
