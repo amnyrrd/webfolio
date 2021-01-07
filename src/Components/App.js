@@ -12,7 +12,7 @@ import RideDiaries from '../Pages/Projects/RideDiaries/RideDiaries';
 
 const App = () => {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/' render={() => <Home />} />
         <Route exact path='/bio' render={() => <Bio />} />
