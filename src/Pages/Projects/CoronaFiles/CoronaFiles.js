@@ -15,7 +15,7 @@ const CoronaFiles = () => {
           with Ruby on Rails on the back-end. Users are able to add news they
           find relevant to the issue, and users can then vote on the
           article/link either 'True' or 'False'. The GoogleMaps API is used to
-          filter items by location.
+          filter items by location, although it is currently set up to only work on my IP address for maxiumum API key protection.
         </p>
         <br />
         <a href='https://coronafiles.herokuapp.com'> <img src={CFPhoto} alt='CoronaFilesPagePhoto' id='CFPhoto' /></a>
