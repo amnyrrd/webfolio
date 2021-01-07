@@ -87,7 +87,7 @@
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
-      padding-bottom: 4%;
+      padding-bottom: 7%;
     }
 
     #CFCard {
@@ -95,13 +95,15 @@
       flex-direction: column-reverse;
       justify-content: space-around;
       align-items: center;
-      height: 68vh;
+      height: 95vh;
       width: 100vw;
 
       #CFPhoto {
-        padding-top: 24%;
+        top: 24%;
         height: 28vh;
         width: 50vw;
+        padding-top: 5%;
+        padding-bottom: -10%;
       }
 
       #CFWriteUp {
