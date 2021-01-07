@@ -10,9 +10,9 @@
     width: 100vw;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 800px) {
     #BikePhoto {
-      width: 1200px;
+      width: 800px;
       overflow: hidden;
       object-fit: cover;
       object-position: 0px 0px 800px;
@@ -21,9 +21,7 @@
 
   @media screen and (min-width: 360px) and (max-width: 767px) {
     #BikePhoto {
-      // width: 375px;
-      // width: fit-content;
-      width: 767px;
+      width: 375px;
       overflow: hidden;
       object-fit: cover;
       object-position: 0px 0px 600px;
