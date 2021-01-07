@@ -1,7 +1,7 @@
 [build]
   command = "yarn run build"
-  publish="webfolio/build"
-  base = "webfolio"
+  publish="/build"
+  base = "/"
 
 [[redirects]]
   from = "/*"
