@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.bcfbf514.chunk.css",
-    "main.js": "/webfolio/static/js/main.0a5ead1f.chunk.js",
-    "main.js.map": "/webfolio/static/js/main.0a5ead1f.chunk.js.map",
-    "runtime-main.js": "/webfolio/static/js/runtime-main.e1968a45.js",
-    "runtime-main.js.map": "/webfolio/static/js/runtime-main.e1968a45.js.map",
-    "static/js/2.38261647.chunk.js": "/webfolio/static/js/2.38261647.chunk.js",
-    "static/js/2.38261647.chunk.js.map": "/webfolio/static/js/2.38261647.chunk.js.map",
-    "index.html": "/webfolio/index.html",
-    "static/css/main.bcfbf514.chunk.css.map": "/webfolio/static/css/main.bcfbf514.chunk.css.map",
-    "static/js/2.38261647.chunk.js.LICENSE.txt": "/webfolio/static/js/2.38261647.chunk.js.LICENSE.txt",
-    "static/media/R0001155.ba2ea7d0.jpg": "/webfolio/static/media/R0001155.ba2ea7d0.jpg",
-    "static/media/RideDiaries.75aaf06a.png": "/webfolio/static/media/RideDiaries.75aaf06a.png",
-    "static/media/Strava_Logo.080f9243.svg": "/webfolio/static/media/Strava_Logo.080f9243.svg",
-    "static/media/TheRona.b4a2490a.png": "/webfolio/static/media/TheRona.b4a2490a.png",
-    "static/media/BioStyles.scss": "/webfolio/static/media/bio-bg.3822f219.png",
-    "static/media/cycle.54b8dcbf.svg": "/webfolio/static/media/cycle.54b8dcbf.svg",
-    "static/media/dasme.d4d7cb9c.jpeg": "/webfolio/static/media/dasme.d4d7cb9c.jpeg",
-    "static/media/dev.b1d7e464.svg": "/webfolio/static/media/dev.b1d7e464.svg",
-    "static/media/octocat.f0106e45.svg": "/webfolio/static/media/octocat.f0106e45.svg"
+    "main.css": "/static/css/main.85d79416.chunk.css",
+    "main.js": "/static/js/main.ca87c49f.chunk.js",
+    "main.js.map": "/static/js/main.ca87c49f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e996c09.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e996c09.js.map",
+    "static/js/2.38261647.chunk.js": "/static/js/2.38261647.chunk.js",
+    "static/js/2.38261647.chunk.js.map": "/static/js/2.38261647.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.85d79416.chunk.css.map": "/static/css/main.85d79416.chunk.css.map",
+    "static/js/2.38261647.chunk.js.LICENSE.txt": "/static/js/2.38261647.chunk.js.LICENSE.txt",
+    "static/media/R0001155.ba2ea7d0.jpg": "/static/media/R0001155.ba2ea7d0.jpg",
+    "static/media/RideDiaries.75aaf06a.png": "/static/media/RideDiaries.75aaf06a.png",
+    "static/media/Strava_Logo.080f9243.svg": "/static/media/Strava_Logo.080f9243.svg",
+    "static/media/TheRona.b4a2490a.png": "/static/media/TheRona.b4a2490a.png",
+    "static/media/BioStyles.scss": "/static/media/bio-bg.3822f219.png",
+    "static/media/cycle.54b8dcbf.svg": "/static/media/cycle.54b8dcbf.svg",
+    "static/media/dasme.d4d7cb9c.jpeg": "/static/media/dasme.d4d7cb9c.jpeg",
+    "static/media/dev.b1d7e464.svg": "/static/media/dev.b1d7e464.svg",
+    "static/media/octocat.f0106e45.svg": "/static/media/octocat.f0106e45.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1968a45.js",
+    "static/js/runtime-main.3e996c09.js",
     "static/js/2.38261647.chunk.js",
-    "static/css/main.bcfbf514.chunk.css",
-    "static/js/main.0a5ead1f.chunk.js"
+    "static/css/main.85d79416.chunk.css",
+    "static/js/main.ca87c49f.chunk.js"
   ]
 }
