@@ -7,8 +7,8 @@ import Footer from '../../Components/Footer/Footer';
 const Projects = () => {
   return (
     <div id='ProjectsPage'>
-      <RideDiaries />
-      <CoronaFiles />
+      <RideDiaries id='RideDiaries'/>
+      <CoronaFiles id='CoronaFiles' />
       <Footer />
     </div>
   );
