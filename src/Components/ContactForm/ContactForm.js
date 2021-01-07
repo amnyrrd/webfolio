@@ -6,9 +6,7 @@ import {
   Control,
   Input,
   Button,
-  Icon,
   Textarea,
-  Notification,
 } from 'rbx';
 
 class ContactForm extends Component {
