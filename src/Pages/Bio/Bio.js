@@ -31,8 +31,8 @@ const Bio = () => {
           </ul>
         </div>
         <div id='WorkCard'>
-          <h1 id='WorkTitle'>Cycling</h1>
-          <p id='WorkText'>Prior to beginning my programming journey, I worked in the cycling industry.  Most recently I was the Bike Fitter and Sales Manager at Trek in Berkeley, California from 2017 to the beginning of 2020.</p>
+          <h1 id='WorkTitle'>Education</h1>
+          <p id='WorkText'>In 2013 I graduated from San Francisco State University with a Bachelor's Degree in Anthropology, focused on Cultural Anthropology and public health.  I also completed United Bicycle Institute's Professional Repair and Shop Operation program, as well as their DT Swiss Certified Wheel Builder Program in Portland, OR.  For bike fitting, I completed Trek and Purely Custom's fit class in Waterloo, WI.</p>
         </div>
       </div>
       <Footer />

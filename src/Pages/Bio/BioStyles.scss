@@ -20,7 +20,7 @@
       background-color: #c9ffe5;
       position: absolute;
       border-radius: 30px;
-      top: 10%;
+      top: 6%;
       left: 10%;
       bottom: 10%;
       padding-top: 3%;
@@ -44,7 +44,7 @@
       background-color: #b0ded8;
       position: absolute;
       border-radius: 30px;
-      top: 11.5%;
+      top: 7.5%;
       left: 62%;
       bottom: 10%;
       padding-top: 3%;
@@ -71,13 +71,13 @@
     }
 
     #WorkCard {
-      height: 18vh;
-      width: 72vw;
+      height: 25vh;
+      width: 76vw;
       background-color: #96bdcc;
       position: absolute;
       border-radius: 30px;
-      top: 73%;
-      padding-bottom: 1%;
+      top: 70%;
+      // padding-bottom: 1%;
 
       #WorkTitle {
         text-align: center;
@@ -163,12 +163,12 @@
     }
 
     #WorkCard {
-      height: 20vh;
-      width: 72vw;
+      height: 25vh;
+      width: 76vw;
       background-color: #96bdcc;
       position: absolute;
       border-radius: 30px;
-      top: 72%;
+      top: 70%;
       padding-bottom: 1%;
 
       #WorkTitle {
@@ -255,13 +255,13 @@
     }
 
     #WorkCard {
-      height: 20vh;
-      width: 72vw;
+      height: 22vh;
+      width: 76vw;
       background-color: #96bdcc;
       position: absolute;
       border-radius: 30px;
       top: 70%;
-      padding-bottom: 1%;
+      padding-bottom: 3%;
 
       #WorkTitle {
         text-align: center;
@@ -298,7 +298,7 @@
       background-color: #c9ffe5;
       position: absolute;
       border-radius: 30px;
-      top: 7%;
+      top: 5.5%;
       left: 10%;
       bottom: 10%;
       padding-bottom: 6%;
@@ -309,12 +309,12 @@
         align-self: center;
         margin: auto;
         width: fit-content;
-        font-size: 22px;
+        font-size: 20px;
       }
 
       #BioText {
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
       }
     }
 
@@ -335,37 +335,37 @@
         align-self: center;
         margin: auto;
         width: fit-content;
-        font-size: 22px;
+        font-size: 20px;
       }
 
       #SkillsList {
         list-style-type: none;
-        font-size: 18px;
+        font-size: 16px;
         align-self: center;
         text-align: center;
       }
     }
 
     #WorkCard {
-      height: 20vh;
-      width: 72vw;
+      height: 25vh;
+      width: 76vw;
       background-color: #96bdcc;
       position: absolute;
       border-radius: 30px;
-      top: 70%;
-      padding-bottom: 1%;
+      top: 66%;
+      padding-bottom: 3%;
 
       #WorkTitle {
         text-align: center;
         align-self: center;
         margin: auto;
         width: fit-content;
-        font-size: 22px;
+        font-size: 20px;
 
       }
 
       #WorkText {
-        font-size: 18px;
+        font-size: 16px;
         align-self: center;
         text-align: center;
       }
