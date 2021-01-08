@@ -25,7 +25,7 @@ const Bio = () => {
             <li>JavaScript (React, Redux, Node.js, TypeScript)</li>
             <li>Ruby on Rails</li>
             <li>Python</li>
-            <li>Git/Github</li>
+            <li>Git/GitHub</li>
             <li>SQL (MySQL, PostgreSQL, SQLite)</li> <li>HTML5/CSS3/SASS</li>
             <li>Algorithms/Data Structures</li> <li>Heroku, Netlify and Firebase</li>{' '}
           </ul>
