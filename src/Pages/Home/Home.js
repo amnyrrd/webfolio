@@ -6,8 +6,8 @@ import './HomeStyles.scss';
 const Home = () => {
   return (
     <div id='home'>
-      <SideNavBar id='sideNavBar' />
-      <PhotoCard id='photoCard' />
+      <SideNavBar id='SideNavBar' />
+      <PhotoCard id='PhotoCard' />
     </div>
   );
 };

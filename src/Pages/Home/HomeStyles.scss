@@ -4,12 +4,12 @@
     flex-direction: row;
     overflow: hidden;
 
-    #photoCard {
+    #PhotoCard {
       height: 100vh;
       width: 56%;
     }
 
-    #sideNavBar {
+    #SideNavBar {
       height: 100vh;
       width: 44vw;
     }
@@ -20,7 +20,7 @@
     flex-direction: column-reverse;
     overflow: hidden;
 
-    #photoCard {
+    #PhotoCard {
       height: 50%;
       // width: 100vw;
       width: 1201px;
@@ -28,7 +28,7 @@
       object-position: 0px 1400px ;
     }
 
-    #sideNavBar {
+    #SideNavBar {
       height: 60vh;
       width: 100vw;
     }
@@ -39,12 +39,12 @@
   flex-direction: column-reverse;
   overflow: hidden;
 
-  #photoCard {
+  #PhotoCard {
     height: 80vh;
     width: 100vw;
   }
 
-  #sideNavBar {
+  #SideNavBar {
     height: 80vh;
     width: 100vw;
   }

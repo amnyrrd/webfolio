@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
 
-#sideNavBar {
+#SideNavBar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -11,7 +11,7 @@
   width: 45vw;
   font-family: 'Space Mono', monospace;
 
-  #bioLink {
+  #BioLink {
     text-decoration: none;
     font-size: 40px;
 
@@ -20,7 +20,7 @@
     }
   }
 
-  #projectsLink {
+  #ProjectsLink {
     text-decoration: none;
     font-size: 40px;
 
@@ -29,7 +29,7 @@
     }
   }
 
-  #contactLink {
+  #ContactLink {
     text-decoration: none;
     font-size: 40px;
 
@@ -38,7 +38,7 @@
     }
   }
 
-  #bikeIcon {
+  #BikeIcon {
     &:hover {
       cursor: pointer;
     }
