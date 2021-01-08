@@ -5,7 +5,7 @@ import './CoronaFilesStyles.scss';
 const CoronaFiles = () => {
   return (
     <div id='CFCardAndTitle'>
-      <a href='https://coronafiles.herokuapp.com/' id='CFTitle'>
+      <a href='https://coronafiles.herokuapp.com/' target="_blank" id='CFTitle'>
         CoronaFiles
       </a>
       <div id='CFCard'>
@@ -18,7 +18,7 @@ const CoronaFiles = () => {
           filter items by location, although it is currently set up to only work on my IP address for maxiumum API key protection.
         </p>
         <br />
-        <a href='https://coronafiles.herokuapp.com'> <img src={CFPhoto} alt='CoronaFilesPagePhoto' id='CFPhoto' /></a>
+        <a href='https://coronafiles.herokuapp.com' target="_blank"> <img src={CFPhoto} alt='CoronaFilesPagePhoto' id='CFPhoto' /></a>
       </div>
     </div>
   );

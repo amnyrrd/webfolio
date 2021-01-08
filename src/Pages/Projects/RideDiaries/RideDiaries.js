@@ -5,11 +5,11 @@ import './RideDiariesStyles.scss';
 const RideDiaries = () => {
   return (
     <div id='RDCardAndTitle'>
-      <a href='https://ridediaries.herokuapp.com/' id='RDTitle'>
+      <a href='https://ridediaries.herokuapp.com/' target="_blank" id='RDTitle'>
         RideDiaries
       </a>
       <div id='RDCard'>
-        <a href='https://ridediaries.herokuapp.com'>
+        <a href='https://ridediaries.herokuapp.com' target="_blank">
           <img src={RDPhoto} alt='CoronaFilesPagePhoto' id='RDPhoto' />
         </a>
         <p id='RDWriteUp'>
