@@ -9,7 +9,8 @@
     "@testing-library/user-event": "^12.1.10",
     "bulma": "^0.9.1",
     "gh-pages": "^3.1.0",
-    "netlify-cli": "^2.70.0",
+    "netlify": "^8.0.1",
+    "netlify-cli": "^6.12.1",
     "node-sass": "^4.14.1",
     "rbx": "^2.2.0",
     "react": "^17.0.1",
@@ -29,7 +30,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify": "netlify"
   },
   "eslintConfig": {
     "extends": [
