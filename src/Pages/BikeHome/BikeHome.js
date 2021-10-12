@@ -8,7 +8,7 @@ const BikeHome = () => {
   return (
     <>
       <div id='BikeHomeBG'>
-        <img src={BikePhoto} id='BikePhoto' />
+        <img src={BikePhoto} id='BikePhoto' alt='BikePhoto' />
       <BikeBlog />
       </div>
       <Footer />

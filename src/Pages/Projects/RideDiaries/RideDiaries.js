@@ -1,15 +1,15 @@
 import React from 'react';
-import RDPhoto from '../../../Public/Images/RideDiaries.png';
+import RDPhoto from '../../../Public/Images/RideDiaries-sized.png';
 import './RideDiariesStyles.scss';
 
 const RideDiaries = () => {
   return (
     <div id='RDCardAndTitle'>
-      <a href='https://ridediaries.herokuapp.com/' target="_blank" id='RDTitle'>
+      <a href='https://ridediaries.herokuapp.com/' target="_blank" rel="noreferrer" id='RDTitle'>
         RideDiaries
       </a>
       <div id='RDCard'>
-        <a href='https://ridediaries.herokuapp.com' target="_blank">
+        <a href='https://ridediaries.herokuapp.com' target="_blank" rel="noreferrer">
           <img src={RDPhoto} alt='CoronaFilesPagePhoto' id='RDPhoto' />
         </a>
         <p id='RDWriteUp'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from '../../Public/Images/dasme.jpeg';
+import Photo from '../../Public/Images/it-me.jpeg';
 import './PhotoCardStyles.scss';
 
 const PhotoCard = () => {
