@@ -1,16 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './BikeBlogStyles.scss'
+
 
 const BikeBlog = () => {
   return (
     <div className='BikeBlog'>
-      <h1 className='GoalsTitle'>2021 Cycling Goals</h1>
       <ul id='GoalsList'>
-      <li id='GoalsList'> </li>
-      <li id='GoalsList'> </li>
-      <li id='GoalsList'> </li>
-      <li id='GoalsList'> </li>
-      <li id='GoalsList'>Stay stoked!</li>
+      <li id='GoalsList'>When I have any free time, there's a very high likelihood I'm out riding bikes. If you're in Portland,  <Link to='/contact' id='ContactLink'>hit me up</Link> and let's go for a ride!</li>
       </ul>
     </div>
   )

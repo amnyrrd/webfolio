@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer';
 import DevIcon from '../../Public/Images/dev.svg';
 import OctoCat from '../../Public/Images/octocat.svg';
 import StravaLogo from '../../Public/Images/Strava_Logo.svg';
+import RWGPSLogo from '../../Public/Images/RWGPSLogo.png';
 import './ContactStyles.scss';
 
 const Contact = () => {
@@ -26,6 +27,11 @@ const Contact = () => {
               to={{ pathname: 'https://www.strava.com/athletes/2958777' }}
               target='_blank'>
               <img src={StravaLogo} alt='StravaIcon' id='StravaIcon' />
+            </Link>
+            <Link
+              to={{ pathname: 'https://ridewithgps.com/users/895185/' }}
+              target='_blank'>
+              <img src={RWGPSLogo} alt='RWGPSIcon' id='RWGPSIcon' />
             </Link>
           </div>
         </div>
