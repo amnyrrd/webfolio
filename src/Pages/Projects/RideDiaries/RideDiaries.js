@@ -16,7 +16,7 @@ const RideDiaries = () => {
           RideDiaries is a blogging platform specifically for cyclists built
           using a React front-end and Ruby on Rails on the back-end. Users
           create their blogposts using the Markdown based text editor Showdown.
-          JSON Web Tokens are utilized for authentication. Click the photo or
+          JSON Web Tokens are utilized for authentication (you must create an account to see full functionality). Click the photo or
           title above for a link to the project hosted on Heroku.
         </p>
       </div>
