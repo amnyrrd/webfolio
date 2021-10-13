@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <div id='ContactPage'>
         <div id='Header'>
-          <h1>aaronminyard.com</h1>
+          <h1 id='aaronminyard.com' alt='aaronminyard.com' >aaronminyard.com</h1>
           <div id='Icons'>
             <Link
               to={{ pathname: 'https://github.com/amnyrrd' }}
