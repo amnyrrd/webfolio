@@ -24,15 +24,16 @@ const Contact = () => {
               <img src={DevIcon} alt='DevToIcon' id='DevToIcon' />
             </Link>
             <Link
-              to={{ pathname: 'https://www.strava.com/athletes/2958777' }}
-              target='_blank'>
-              <img src={StravaLogo} alt='StravaIcon' id='StravaIcon' />
-            </Link>
-            <Link
               to={{ pathname: 'https://ridewithgps.com/users/895185/' }}
               target='_blank'>
               <img src={RWGPSLogo} alt='RWGPSIcon' id='RWGPSIcon' />
             </Link>
+            <Link
+              to={{ pathname: 'https://www.strava.com/athletes/2958777' }}
+              target='_blank'>
+              <img src={StravaLogo} alt='StravaIcon' id='StravaIcon' />
+            </Link>
+            
           </div>
         </div>
         <ContactForm />
