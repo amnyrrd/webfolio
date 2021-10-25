@@ -201,6 +201,37 @@
           width: 150px;
         }
       }
+
+      #ContactForm {
+        height: 65vh;
+        width: 50vw;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #c9ffe5;
+    
+        #Boxes {
+          padding-bottom: 2%;
+    
+          #NameBox {
+            width: 60%;
+          }
+    
+          #EmailBox {
+            width: 60%;
+          }
+    
+          #SubjectBox {
+            width: 60%;
+          }
+    
+          #MessageBox {
+            width: 95%;
+            // padding-bottom: 10px;
+          }
+        }
     }
   }
 
@@ -279,4 +310,5 @@
       top: 25%;
     }
   }
+}
 }

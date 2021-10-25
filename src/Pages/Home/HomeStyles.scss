@@ -1,4 +1,6 @@
 #Home {
+  background-color: #C6EDE6;
+
   @media screen and (min-width: 1201px) {
     display: flex;
     flex-direction: row;
@@ -6,7 +8,7 @@
 
     #PhotoCard {
       height: 100vh;
-      width: 56%;
+      width: 56vw;
     }
 
     #SideNavBar {
@@ -40,7 +42,7 @@
   overflow: hidden;
 
   #PhotoCard {
-    height: 80vh;
+    height: auto;
     width: 100vw;
   }
 
