@@ -10,7 +10,7 @@
 
   #Header {
     height: 27vh;
-    position: absolute;
+    // position: absolute;
     left: 70%;
 
     
@@ -245,6 +245,9 @@
 }
 
   @media screen and (min-width: 300px) and (max-width: 850px) {
+    height: 120vh;
+    width: 100vw;
+
     #Header {
       height: 10vh;
       position: absolute;
@@ -285,7 +288,7 @@
     }
 
     #ContactForm {
-      height: 90vh;
+      height: 100vh;
       width: 60vw;
       border-radius: 25px;
       position: absolute;
@@ -293,7 +296,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background-color: #c9ffe5;
-      overflow: auto;
 
 
       #Boxes {
@@ -327,10 +329,11 @@
 
     #LowerBG {
       background-color: #c9ffe5;
-      height: 90vh;
+      height: 100vh;
       width: 100vw;
       position: relative;
-      overflow: auto;
+      overflow-y: auto;
+      top: 15%;
     }
   }  
 }
