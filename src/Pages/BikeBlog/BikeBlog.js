@@ -6,9 +6,9 @@ import './BikeBlogStyles.scss'
 const BikeBlog = () => {
   return (
     <div className='BikeBlog'>
-      <ul id='GoalsList'>
-      <li id='GoalsList'>When I have any free time, there's a very high likelihood I'm out riding bikes. If you're in Portland,  <Link to='/contact' id='ContactLink'>hit me up</Link> and let's go for a ride!</li>
-      </ul>
+      <div id='Goals'>
+      <p id='GoalsList'>When I have any free time, there's a very high likelihood I'm out riding bikes. If you're in Portland,  <Link to='/contact' id='ContactLink'>hit me up</Link> and let's go for a ride!</p>
+      </div>
     </div>
   )
 }

@@ -19,19 +19,19 @@
     }
 }
 
-  @media screen and (min-width: 768px) and (max-width: 800px) {
+  @media screen and (min-width: 300px) and (max-width: 850px) {
     #BikePhoto {
-      width: 800px;
-      object-fit: cover;
-      object-position: 0px 0px 800px;
+      // visibility: hidden;
+      height: 84vh;
+      background-position: 35% 75%;
+      width: auto;
     }
-  }
 
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    #BikePhoto {
-      width: 375px;
-      object-fit: cover;
-      object-position: 0px 0px 600px;
+    #StravaWidget {
+      position: relative;
+      visibility: hidden;
+      height: 7%;
+      top: 12%
     }
   }
 }

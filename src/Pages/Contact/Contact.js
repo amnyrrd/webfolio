@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <div id='ContactPage'>
         <div id='Header'>
-          <h1 id='aaronminyard.com' alt='aaronminyard.com' >aaronminyard.com</h1>
+          <h1 id='Title' alt='aaronminyard.com' >aaronminyard.com</h1>
           <div id='Icons'>
             <Link
               to={{ pathname: 'https://github.com/amnyrrd' }}
@@ -33,7 +33,6 @@ const Contact = () => {
               target='_blank'>
               <img src={StravaLogo} alt='StravaIcon' id='StravaIcon' />
             </Link>
-            
           </div>
         </div>
         <ContactForm />

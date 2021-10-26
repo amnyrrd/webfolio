@@ -75,7 +75,7 @@ class ContactForm extends Component {
                   id='NameBox'
                   name='name'
                   type='text'
-                  placeholder='Your first and last name'
+                  placeholder='Your name'
                   value={name}
                   onChange={this.handleChange}
                 />
@@ -101,7 +101,7 @@ class ContactForm extends Component {
                   id='SubjectBox'
                   name='subject'
                   type='text'
-                  placeholder='What is the subject?'
+                  placeholder='Subject of message'
                   value={subject}
                   onChange={this.handleChange}
                 />

@@ -22,6 +22,7 @@ const Bio = () => {
           <h1 className='SkillsTitle'>Languages, </h1>
           <h1 className='SkillsTitle'>Frameworks and Skills</h1>
           <ul id='SkillsList'>
+          <br/>
             <li>JavaScript (React, Redux, Node.js, TypeScript)</li>
             <li>Ruby on Rails</li>
             <li>Python</li>

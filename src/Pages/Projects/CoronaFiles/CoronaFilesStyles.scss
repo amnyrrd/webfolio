@@ -77,13 +77,14 @@
   }
 
   @media screen and (min-width: 360px) and (max-width: 767px) {
+    
     #CFTitle {
       text-align: center;
       font-size: 24px;
       text-decoration: none;
       color: black;
-      position: absolute;
-      top: 84%;
+      // position: absolute;
+      // top: 84%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
@@ -95,14 +96,14 @@
       flex-direction: column-reverse;
       justify-content: space-around;
       height: 75vh;
-      width: 100vw;
+      width: auto;
 
       #CFPhoto {
-        position: absolute;
-        top: 86%;
-        left: 25%;
-        height: 28vh;
-        width: 50vw;
+        // position: relative;
+        // top: 86%;
+        // left: 25%;
+        height: auto;
+        width: 75vw;
       }
 
       #CFWriteUp {

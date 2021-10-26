@@ -1,18 +1,24 @@
 .BikeBlog {
   background-color: #82a24c;
-  height: 20vh;
+  height: 8vh;
   font-family: 'Space Mono', monospace;
   font-size: 26;
   text-align: center;
-  left: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  padding: 5px;
+
+  #Goals {
+  }
 
   #GoalsList {
-    list-style-type: none;
-    left: 50%;
-    top: 50%;
+    align-items: center;
+  }
+
+  @media (max-width: 850px) {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    padding:5px;
+
   }
 }

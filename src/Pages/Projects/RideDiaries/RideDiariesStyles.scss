@@ -58,16 +58,14 @@
       width: 100vw;
 
       #RDPhoto {
-        height: 25vh;
-        width: 50vw;
-        padding-top: 7%;
+        height: auto;
+        width: 80vw;
       }
 
       #RDWriteUp {
-        height: 35vh;
+        height: auto;
         width: 45vh;
         font-size: 16px;
-        margin-top: 3%;
       }
     }
   }
@@ -92,8 +90,8 @@
       width: 100vw;
 
       #RDPhoto {
-        height: 24vh;
-        width: 50vw;
+        height: auto;
+        width: 75vw;
         margin-top: 15%;
       }
 
@@ -101,6 +99,46 @@
         width: 80vw;
         height: 25vh;
         font-size: 18px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    
+    #CFTitle {
+      text-align: center;
+      font-size: 24px;
+      text-decoration: none;
+      color: black;
+      // position: absolute;
+      // top: 84%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 7%;
+    }
+
+    #CFCard {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 75vh;
+      width: auto;
+
+      #CFPhoto {
+        // position: relative;
+        // top: 86%;
+        // left: 25%;
+        height: auto;
+        width: 75vw;
+      }
+
+      #CFWriteUp {
+        width: 45vh;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
       }
     }
   }
