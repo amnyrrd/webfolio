@@ -3,17 +3,19 @@
 #RDCardAndTitle {
   background-color: #c4fffe;
   font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+  width: 100vw;
 
   #RDTitle {
     text-align: center;
     font-size: 34px;
     text-decoration: none;
     color: black;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    top: 3%;
+    padding-top: 2%;
   }
 
   #RDCard {
@@ -25,116 +27,50 @@
     width: 100vw;
 
     #RDPhoto {
-      height: 48vh;
+      height: auto;
       width: 48vw;
     }
 
     #RDWriteUp {
-      width: 66vh;
-      align-self: center;
-      justify-content: center;
+      width: 60vh;
+      height: auto;
       text-align: center;
       font-size: 22px;
     }
   }
 
-  @media screen and (min-width: 360px) and (max-width: 767px) {
+  // 
+  @media screen and (min-width: 300px) and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     #RDTitle {
       text-align: center;
       font-size: 24px;
       text-decoration: none;
       color: black;
-      position: absolute;
-      top: 2%;
+      position: relative;
       left: 50%;
-      margin-right: -50%;
+      top: 3%;
       transform: translate(-50%, -50%);
     }
 
     #RDCard {
-      display: flex;
-      flex-direction: column;
-      height: 80vh;
-      width: 100vw;
-
-      #RDPhoto {
-        height: auto;
-        width: 80vw;
-      }
-
-      #RDWriteUp {
-        height: auto;
-        width: 45vh;
-        font-size: 16px;
-      }
-    }
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1223px) {
-    #RDTitle {
-      text-align: center;
-      font-size: 34px;
-      text-decoration: none;
-      color: black;
-      position: absolute;
-      top: 2%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-    }
-
-    #RDCard {
-      display: flex;
-      flex-direction: column;
-      height: 68vh;
-      width: 100vw;
-
-      #RDPhoto {
-        height: auto;
-        width: 75vw;
-        margin-top: 15%;
-      }
-
-      #RDWriteUp {
-        width: 80vw;
-        height: 25vh;
-        font-size: 18px;
-      }
-    }
-  }
-
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    
-    #CFTitle {
-      text-align: center;
-      font-size: 24px;
-      text-decoration: none;
-      color: black;
-      // position: absolute;
-      // top: 84%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-      padding-bottom: 7%;
-    }
-
-    #CFCard {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      height: 75vh;
+      height: auto;
       width: auto;
 
-      #CFPhoto {
-        // position: relative;
-        // top: 86%;
-        // left: 25%;
+      #RDPhoto {
         height: auto;
         width: 75vw;
       }
 
-      #CFWriteUp {
+      #RDWriteUp {
         width: 45vh;
+        height: auto;
         align-self: center;
         justify-content: center;
         text-align: center;

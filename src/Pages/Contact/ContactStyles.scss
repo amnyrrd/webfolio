@@ -10,7 +10,7 @@
 
   #Header {
     height: 27vh;
-    // position: absolute;
+    position: absolute;
     left: 70%;
 
     
@@ -183,6 +183,10 @@
       left: 0;
       right: 0;
       height: 30vh;
+
+      #Title {
+        text-align: center;
+      }
 
       #Icons {
         display: flex;
