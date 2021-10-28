@@ -10,10 +10,11 @@
   height: 100vh;
   width: auto;
   font-family: 'Space Mono', monospace;
+  font-size: 40px;
 
   #BioLink {
     text-decoration: none;
-    font-size: 40px;
+    // font-size: 40px;
 
     &:hover {
       color: rgb(99, 172, 156);
@@ -22,7 +23,7 @@
 
   #ProjectsLink {
     text-decoration: none;
-    font-size: 40px;
+    // font-size: 40px;
 
     &:hover {
       color: rgb(99, 172, 156);
@@ -31,7 +32,7 @@
 
   #ContactLink {
     text-decoration: none;
-    font-size: 40px;
+    // font-size: 40px;
 
     &:hover {
       color: rgb(99, 172, 156);
@@ -44,7 +45,7 @@
     }
   }
 
-  @media screen and (min-width: 375px) and (max-width: 800px) {
-
+  @media screen and (min-width: 375px) and (max-width: 900px) {
+    font-size: 24px;
   }
 }

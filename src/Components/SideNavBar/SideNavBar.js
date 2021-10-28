@@ -7,7 +7,7 @@ import './SideNavBarStyles.scss';
 const SideNavBar = () => {
   return (
     <div id='SideNavBar'>
-      <ToggleBikeHome id='BikeIcon' />
+      
       <Link to='/bio' id='BioLink'>
         About
       </Link>
@@ -19,6 +19,7 @@ const SideNavBar = () => {
       <Link to='/contact' id='ContactLink'>
         Contact
       </Link>
+      <ToggleBikeHome id='BikeIcon' />
     </div>
   );
 };
