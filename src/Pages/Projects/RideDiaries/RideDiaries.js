@@ -10,7 +10,7 @@ const RideDiaries = () => {
       </a>
       <div id='RDCard'>
         <a href='https://ridediaries.herokuapp.com' target="_blank" rel="noreferrer">
-          <img src={RDPhoto} alt='CoronaFilesPagePhoto' id='RDPhoto' />
+          <img src={RDPhoto} alt='Desktop screenshot of RideDiaries homepage' id='RDPhoto' />
         </a>
         <p id='RDWriteUp'>
           RideDiaries is a blogging platform specifically for cyclists built

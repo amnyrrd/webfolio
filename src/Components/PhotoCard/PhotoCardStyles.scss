@@ -5,45 +5,18 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Space Mono', monospace;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
-
 
   @media screen and (min-width: 485px) {
     #PhotoOfMe {
       margin:auto;
       height: 72vh;
       width: auto;
-      border-radius: 30px;
+      border-radius: 70px;
       object-fit: contain;
     }
   }
-
-
-  // @media screen and (min-width: 900px) and (max-width: 1199px) {
-  //   #PhotoOfMe {
-  //     height: 72vh;
-  //     width: auto;
-  //     border-radius: 30px;
-  //   }
-  // }
-
-  // .text-block {
-  //   font-family: 'Space Mono', monospace;
-  //   font-size: 26px;
-  //   padding: 30px 34px 30px 34px;
-  //   width: 14%;
-  //   border-radius: 50%;
-  //   position: absolute;
-  //   top: 4%;
-  //   right: 2%;
-  //   text-align: center;
-  //   background-color: #2e2315;
-  //   opacity: 0.8;
-  //   color: black;
-  //   color: #c6ede6;
-  // }
-
 
   @media screen and (min-width: 300px) and (max-width: 485px) {
     #PhotoOfMe {
@@ -51,11 +24,5 @@
       width: 60vh;
       object-fit: scale-down;
     }
-
-    // .text-block {
-    //   visibility: hidden;
-    //   // left: 10%;
-    //   // padding: 30px 60px 30px 50px;
-    // }
   }
 }

@@ -19,7 +19,7 @@ const CoronaFiles = () => {
         </p>
         <br />
         <a href='https://coronafiles.herokuapp.com' target="_blank" rel="noreferrer"> 
-        <img src={CFPhoto} alt='CoronaFilesPagePhoto' id='CFPhoto' /></a>
+        <img src={CFPhoto} alt='Desktop screenshot of CoronaFiles homepage.' id='CFPhoto' /></a>
       </div>
     </div>
   );

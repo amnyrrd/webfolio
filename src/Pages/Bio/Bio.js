@@ -7,7 +7,7 @@ const Bio = () => {
     <>
       <div id='BioPageBG'>
         <div id='BioCard'>
-          <h1 id='BioTitle'>Web Development</h1>
+          <h1 id='BioTitle' alt=''>Web Development</h1>
           <p id='BioText'>
             A capable and detailed Junior Software Developer, familiar with
             object-oriented programming, data structures, and algorithms.
